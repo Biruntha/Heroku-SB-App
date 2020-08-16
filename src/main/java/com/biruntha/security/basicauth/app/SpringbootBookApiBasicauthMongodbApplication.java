@@ -1,11 +1,9 @@
-package com.biruntha.security.basicauth;
+package com.biruntha.security.basicauth.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.biruntha.security.basicauth.repository"})
 public class SpringbootBookApiBasicauthMongodbApplication {
 	
 	public static void main(String[] args) {
